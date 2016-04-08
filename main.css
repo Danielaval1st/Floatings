@@ -1,0 +1,29 @@
+.clearfix {
+	border: 1px solid black;
+	width: 25%;
+	}
+#A{
+	background-color: yellow;
+	width: 25%;
+	height: 100px;
+	float:left;
+}
+#B {
+	background-color: #8181F7;
+	width: 25%;
+	height: 100px;
+	float:left;
+}
+#C {
+	background-color: #FF0080;
+	width: 25%;
+	height: 100px;
+	float:left;
+}
+.clearfix:before, .clearfix:after {
+	content:"";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
